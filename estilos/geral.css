@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 :root{
-    --cor-vermelho: #D90B19;
+    --cor-vermelho: #85040d;
+    --cor-vermelho-2: #df0816;
     --cor-amarelo: #F4BC1D;
     --cor-preto: #100000;
     --cor-rosa: #a8574e;
@@ -11,4 +12,8 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
+}
+
+header, nav{
+    background-color: var(--cor-vermelho);
 }
