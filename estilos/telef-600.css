@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+:root{
+    --cor-vermelho: #85040d;
+    --cor-vermelho-2: #e91523;
+    --cor-amarelo: #F4BC1D;
+    --cor-preto: #100000;
+    --cor-rosa: #a8574e;
+}
+
+header > nav > div#menu-telefone{
+    color: white;
+    height: 20px;
+    padding: 8px;
+    transition-duration: 1.2s;
+}
+
+header > nav > div#menu-telefone > div#menu{
+    color: white;
+}
+
+header > nav > div#menu-telefone > div#menus{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: -400px;
+    row-gap: 15px;
+    transition-duration: 1.2s;
+    width: 96%;
+}
+
+header > nav > div#menu-telefone > div#menus > div#ajuda{
+    padding-bottom: 7px;
+}
+
+header > nav > div#menu-telefone > div#menus > div#icon{
+    margin-left: -400px;
+    text-align: start;
+}
+
+header > nav > div#menu-telefone > div#menus > div > a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    margin-top: 40px;
+    transition-duration: 1.8s;
+}

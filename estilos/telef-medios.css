@@ -1,5 +1,22 @@
 @charset "UTF-8";
 
-header > nav > div#menus{
-    display: flex;
+header > nav > div#menu-telefone > div#menu, div#menus > div#icon{
+    display: none;
 }
+
+header > nav > div#menu-telefone > div#menus{
+    display: flex;
+    column-gap: 22px;
+    padding: 10px;
+}
+
+header > nav > div#menu-telefone > div#menus > div > a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    filter: blur(0px);
+    margin: 70px 0px 0px 0px;
+}
+
