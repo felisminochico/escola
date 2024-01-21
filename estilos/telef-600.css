@@ -39,12 +39,17 @@ header > nav > div#menu-telefone > div#btn-menu{
     color: white;
 } 
 
+header > nav > div#menu-telefone > div#btn-menu > span{
+    cursor: pointer;
+}
+
 header > nav > div#menu-telefone > div#menus-telefone > span{
     text-align: end;
 }
 
 header > nav > div#menu-telefone > div#menus-telefone > span, a{
     color: white;
+    cursor: pointer;
     text-decoration: none;
 }
 
