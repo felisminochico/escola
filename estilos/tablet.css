@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+header > nav > div#menu-telefone{
+    display: none;
+}
+
+/* header, nav, div#menu-tablet{
+    height: 30px;
+} */
+
+header > nav > div#menu-tablet > div#menus-tablet{
+    display: flex;
+    column-gap: 25px;
+    flex-flow: row nowrap;
+    padding: 20px 0px 20px 20px;
+}
+
+header > nav > div#menu-tablet > div#menus-tablet > a{
+    color: white;
+    text-decoration: none;
+}

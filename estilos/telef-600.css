@@ -1,49 +1,58 @@
 @charset "UTF-8";
 
 :root{
-    --cor-vermelho: #85040d;
+    --cor-vermelho: #72030b;
     --cor-vermelho-2: #e91523;
     --cor-amarelo: #F4BC1D;
     --cor-preto: #100000;
     --cor-rosa: #a8574e;
 }
 
+header, nav, div#menu-telefone{
+    background-image: linear-gradient(45deg, var(--cor-vermelho), var(--cor-vermelho-2));
+    height: 58px;
+}
+
 header > nav > div#menu-telefone{
-    color: white;
-    height: 20px;
-    padding: 8px;
-    transition-duration: 1.2s;
-}
-
-header > nav > div#menu-telefone > div#menu{
-    color: white;
-}
-
-header > nav > div#menu-telefone > div#menus{
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    margin-left: -400px;
+    flex-flow: column nowrap;
+    row-gap: 10px;
+    transition-duration: 2s;
+}
+
+header > nav > div#menu-telefone > div#btn-menu{
+    padding: 20px 0px 0px 20px;
+    transition-duration: 2s;
+    
+}
+
+header > nav > div#menu-telefone > div#menus-telefone{
+    display: flex;
+    flex-flow: column nowrap;
     row-gap: 15px;
-    transition-duration: 1.2s;
-    width: 96%;
+    padding: 0px 16px 15px 10px;
+    transform: translateX(-600px);
+    transition-duration: 2s;
 }
 
-header > nav > div#menu-telefone > div#menus > div#ajuda{
-    padding-bottom: 7px;
+header > nav > div#menu-telefone > div#btn-menu{
+    color: white;
+} 
+
+header > nav > div#menu-telefone > div#menus-telefone > span{
+    text-align: end;
 }
 
-header > nav > div#menu-telefone > div#menus > div#icon{
-    margin-left: -400px;
-    text-align: start;
-}
-
-header > nav > div#menu-telefone > div#menus > div > a{
+header > nav > div#menu-telefone > div#menus-telefone > span, a{
     color: white;
     text-decoration: none;
 }
 
+header > nav > div#menu-tablet{
+    display: none;
+}
+
 main{
-    margin-top: 40px;
-    transition-duration: 1.8s;
+    margin-top: 60px;
+    transition: filter 3s;
 }
