@@ -8,4 +8,79 @@
     --cor-rosa: #a8574e;
 }
 
+header > nav > div#menu-grande{
+    display: none;
+}
+
+header > nav > div#imagem-cabecalho > img{
+    border-radius: 10%;
+    width: 100px;
+}
+
+header > nav > div#menu-telefone > div#btn-menu{
+    color: white;
+    padding: 1em 0em 1em 1em;
+    transition: filter 2s;
+}
+
+header > nav > div#menu-telefone > div#btn-menu > span{
+    cursor: pointer;
+}
+
+header > nav > div#menu-telefone > div#links-cabecalho{
+    background-image: linear-gradient(180deg, var(--cor-vermelho), var(--cor-vermelho-2));
+    box-sizing: content-box;
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100vh;
+    justify-content: space-between;
+    left: -300px;
+    padding: 12px 14px 0px 14px;
+    position: fixed;
+    top: 0px;
+    transition-duration: 2s;
+    z-index: 2;
+}
+
+header > nav > div#menu-telefone > div#links-cabecalho > div#menus-telefone{
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 0.3em;
+}
+
+header > nav > div#menu-telefone > div#links-cabecalho > div#menus-telefone > span{
+    cursor: pointer;
+    font-size: 1.3em;
+    margin-left: 87%;
+    text-align: end;
+    width: 18px;
+}
+
+header > nav > div#menu-telefone > div#links-cabecalho > div#menus-telefone > a{
+    border-radius: 8px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+header > nav > div#menu-telefone > div#links-cabecalho > div#menus-telefone > a:hover{
+    background-color: var(--cor-rosa);
+    transition-duration: .3s;
+}
+
+header > nav > div#menu-telefone > div#links-cabecalho > div#rodape-menu-telefone{
+    padding-bottom: 15px;
+}
+
+header > nav > div#menu-telefone > div#links-cabecalho > div#rodape-menu-telefone > p{
+    font-style: italic;
+    line-height: 1.3em;
+    padding: 10px;
+    text-align: center;
+}
+
+main{
+    transition: filter 2s;
+}
 

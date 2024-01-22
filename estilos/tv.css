@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body{
+    background-color: aqua;
+}
+
+header > nav > div#menu-telefone{
+    display: none;
+}

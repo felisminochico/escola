@@ -9,6 +9,7 @@
 }
 
 *{
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
@@ -19,3 +20,45 @@ body{
     width: 100vw;
 }
 
+body::-webkit-scrollbar{
+    width: 0px;
+}
+
+header, nav{
+    background-image: linear-gradient(45deg, var(--cor-vermelho), var(--cor-vermelho-2));
+    width: 100%;
+}
+
+header > nav > div#imagem-cabecalho{
+    align-content: center;
+    align-items: center;
+    background-color: var(--cor-rosa);
+    display: flex;
+    flex-direction: column;
+    padding: 42px 12px 30px 12px;
+    transition: filter 2s;
+}
+
+header > nav > div#imagem-cabecalho > img{
+    transition: width 1s;
+}
+
+header > nav > div#imagem-cabecalho > span{
+    color: white;
+    font-weight: bold;
+    line-height: 1.3em;
+    padding: 10px 14px;
+    text-align: center;
+}
+
+header > nav > div#menu-grande > div#menus-grande > a{
+    border-radius: 10px;
+    color: white;    
+    padding: 14px 1em;
+    text-decoration: none;
+}
+
+header > nav > div#menu-grande > div#menus-grande > a:hover{
+    background-color: var(--cor-rosa);
+    transition-duration: .3s;
+}

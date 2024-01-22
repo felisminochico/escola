@@ -1,11 +1,26 @@
 @charset "UTF-8";
 
+:root{
+    --cor-vermelho: #72030b;
+    --cor-vermelho-2: #e91523;
+    --cor-amarelo: #F4BC1D;
+    --cor-preto: #100000;
+    --cor-rosa: #a8574e;
+}
+
 header > nav > div#menu-telefone{
     display: none;
 }
 
-/* header, nav, div#menu-tablet{
-    height: 30px;
-} */
+header > nav > div#imagem-cabecalho > img{
+    border-radius: 10px;
+    width: 150px;
+}
 
+header > nav > div#menu-grande > div#menus-grande{
+    column-gap: 1.12em;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 2px 2px;
+}
 
