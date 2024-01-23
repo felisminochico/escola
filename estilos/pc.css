@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-body{
+/* body{
     background-color: gray;
-}
+} */
 
 header > nav > div#menu-telefone{
     display: none;
