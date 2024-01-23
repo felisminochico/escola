@@ -20,7 +20,7 @@ header > nav > div#imagem-cabecalho > img{
 header > nav > div#menu-telefone > div#btn-menu{
     color: white;
     padding: 1em 0em 1em 1em;
-    transition: filter 2s;
+    transition: filter .91s;
 }
 
 header > nav > div#menu-telefone > div#btn-menu > span{
@@ -39,7 +39,7 @@ header > nav > div#menu-telefone > div#links-cabecalho{
     padding: 12px 14px 0px 14px;
     position: fixed;
     top: 0px;
-    transition-duration: 2s;
+    transition-duration: .91s;
     z-index: 2;
 }
 

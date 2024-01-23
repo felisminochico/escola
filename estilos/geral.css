@@ -37,7 +37,7 @@ header > nav > div#imagem-cabecalho{
     display: flex;
     flex-direction: column;
     padding: 42px 12px 30px 12px;
-    transition: filter 2s;
+    transition: filter .91s;
 }
 
 header > nav > div#imagem-cabecalho > img{
@@ -76,7 +76,7 @@ main{
     margin-right: auto;
     max-width: 500px;
     padding: 12px 1em;
-    transition: filter 2s, max-width 1s;
+    transition: filter .91s, max-width .91s;
 }
 
 main > article > h1{
@@ -101,7 +101,7 @@ footer{
     margin-top: 20px;
     padding: 1em;
     row-gap: 2em;
-    transition: filter 2s;
+    transition: filter .91s;
 }
 
 footer > div#redes-sociais, div#contactos, div#desenvolvedores{
