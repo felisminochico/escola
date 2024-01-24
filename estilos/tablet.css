@@ -75,6 +75,6 @@ footer > div#rodape-links{
     justify-content: space-between;
 }
 
-footer > div#rodape-links > div#redes-sociais > div, div#contactos > div, div#desenvolvedores > div{
+footer > div#rodape-links > div#redes-sociais > div, div#contactos > div, div#desenvolvedores > div, div#sites > div{
     flex-direction: column;
 }
