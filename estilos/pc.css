@@ -39,6 +39,11 @@ header > nav > div#imagem-cabecalho > div#conteudo-imagem-cabecalho > span{
     font-size: 1.65em;
 }
 
+header > nav > div#imagem-cabecalho > div#conteudo-cabecalho-extra{
+    height: 85%;
+    width: 98%;
+}
+
 footer > div#rodape-links{
     justify-content: space-around;
 }

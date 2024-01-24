@@ -44,6 +44,16 @@ header > nav > div#imagem-cabecalho > div#conteudo-imagem-cabecalho > span{
     transition: font-size 1.2s;
 }
 
+header > nav > div#imagem-cabecalho > div#conteudo-cabecalho-extra{
+    align-items: flex-end;
+    color: white;
+    display: flex;
+    font-style: italic;
+    justify-content: flex-end;
+    position: absolute;
+    width: 97%;
+}
+
 /* header > nav > div#imagem-cabecalho:hover > span{
     opacity: 1;
     transition: opacity 1.5s;

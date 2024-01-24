@@ -17,6 +17,10 @@ header > nav > div#imagem-cabecalho > div#conteudo-imagem-cabecalho > img{
     width: 100px;
 }
 
+header > nav > div#imagem-cabecalho > div#conteudo-cabecalho-extra{
+    display: none;
+}
+
 header > nav > div#menu-telefone > div#btn-menu{
     color: white;
     padding: 1em 0em 1em 1em;
@@ -56,9 +60,14 @@ header > nav > div#menu-telefone > div#links-cabecalho > div#menus-telefone{
 header > nav > div#menu-telefone > div#links-cabecalho > div#menus-telefone > span{
     cursor: pointer;
     font-size: 1.3em;
-    margin-left: 87%;
-    text-align: end;
-    width: 18px;
+    margin-left: 90%;
+    text-align: center;
+    width: 20px;
+}
+
+header > nav > div#menu-telefone > div#links-cabecalho > div#menus-telefone > span:hover{
+    background-color: var(--cor-rosa);
+    border-radius: 4px;
 }
 
 header > nav > div#menu-telefone > div#links-cabecalho > div#menus-telefone > a{
@@ -80,7 +89,7 @@ header > nav > div#menu-telefone > div#links-cabecalho > div#rodape-menu-telefon
 header > nav > div#menu-telefone > div#links-cabecalho > div#rodape-menu-telefone > p{
     font-style: italic;
     line-height: 1.3em;
-    padding: 10px;
+    padding: 6px;
     text-align: center;
 }
 
