@@ -31,20 +31,23 @@ header, nav{
 }
 
 header > nav > div#imagem-cabecalho{
-    align-content: center;
-    align-items: center;
     background-color: var(--cor-rosa);
-    display: flex;
-    flex-direction: column;
     padding: 42px 12px 30px 12px;
     transition: filter .91s;
 }
 
-header > nav > div#imagem-cabecalho > img{
+header > nav > div#imagem-cabecalho > div#conteudo-imagem-cabecalho{
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+header > nav > div#imagem-cabecalho > div#conteudo-imagem-cabecalho > img{
     transition: width 1s;
 }
 
-header > nav > div#imagem-cabecalho > span{
+header > nav > div#imagem-cabecalho > div#conteudo-imagem-cabecalho > span{
     color: white;
     font-weight: bold;
     line-height: 1.3em;
@@ -96,6 +99,9 @@ main > article > p{
 footer{
     background-image: linear-gradient(180deg, var(--cor-vermelho), var(--cor-vermelho-2));
     color: white;
+}
+
+footer > div#rodape-links{
     display: flex;
     flex-flow: column nowrap;
     margin-top: 20px;
@@ -104,12 +110,12 @@ footer{
     transition: filter .91s;
 }
 
-footer > div#redes-sociais, div#contactos, div#desenvolvedores{
+footer > div#rodape-links > div#redes-sociais, div#contactos, div#desenvolvedores{
     font-size: 12px;
     font-weight: bold;
 }
 
-footer > div#redes-sociais > div, div#contactos > div, div#desenvolvedores > div{
+footer > div#rodape-links > div#redes-sociais > div, div#contactos > div, div#desenvolvedores > div{
     /* align-content: center;
     align-items: center; */
     display: flex;
@@ -120,12 +126,17 @@ footer > div#redes-sociais > div, div#contactos > div, div#desenvolvedores > div
     padding-top: 8px;
 }
 
-footer > div#redes-sociais > div > span:hover, div#contactos > div > span:hover, div#desenvolvedores > div > span:hover{
+footer > div#rodape-links > div#redes-sociais > div > span, div#contactos > div > span, div#desenvolvedores > div > span{
     cursor: pointer;
+}
+
+footer > div#rodape-links > div#redes-sociais > div > span:hover, div#contactos > div > span:hover, div#desenvolvedores > div > span:hover{
     text-decoration: underline;
 }
 
 footer > P{
     font-style: italic;
+    padding-bottom: 14px;
+    padding-top: 16px;
     text-align: center;
 }

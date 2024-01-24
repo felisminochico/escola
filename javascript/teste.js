@@ -14,6 +14,10 @@ function fecharMenu(){
     window.document.getElementsByTagName('footer')[0].style.filter = 'none';
 }
 
+function opacidadeImagem(){
+    window.document.getElementsByTagName('span')[0].style.transition = 'opacity 1.5s';
+}
+
 
 
 

@@ -12,10 +12,42 @@ header > nav > div#menu-telefone{
     display: none;
 }
 
-header > nav > div#imagem-cabecalho > img{
+header > nav > div#imagem-cabecalho{
+    background: url(../imagens/download.jpg) no-repeat center center;
+    background-size: cover;
+    box-sizing: content-box;
+    height: 274.59px;
+    justify-content: center;
+    position: relative;
+}
+
+header > nav > div#imagem-cabecalho > div#conteudo-imagem-cabecalho{
+    justify-content: center;
+    background-color: #1000005e;
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+header > nav > div#imagem-cabecalho > div#conteudo-imagem-cabecalho > img{
     border-radius: 10px;
     width: 150px;
 }
+
+header > nav > div#imagem-cabecalho > div#conteudo-imagem-cabecalho > span{
+    color: white;
+    font-size: 1.35em;
+    font-style: italic;
+    font-weight: normal;
+    transition: font-size 1.2s;
+}
+
+/* header > nav > div#imagem-cabecalho:hover > span{
+    opacity: 1;
+    transition: opacity 1.5s;
+} */
 
 header > nav > div#menu-grande > div#menus-grande{
     column-gap: 0.4em;
@@ -28,3 +60,11 @@ main{
     max-width: 600px;
 }
 
+footer > div#rodape-links{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer > div#rodape-links > div#redes-sociais > div, div#contactos > div, div#desenvolvedores > div{
+    flex-direction: column;
+}

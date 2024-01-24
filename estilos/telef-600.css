@@ -12,7 +12,7 @@ header > nav > div#menu-grande{
     display: none;
 }
 
-header > nav > div#imagem-cabecalho > img{
+header > nav > div#imagem-cabecalho > div#conteudo-imagem-cabecalho > img{
     border-radius: 10%;
     width: 100px;
 }

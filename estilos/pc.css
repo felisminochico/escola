@@ -1,9 +1,44 @@
 @charset "UTF-8";
 
+:root{
+    --cor-vermelho: #72030b;
+    --cor-vermelho-2: #e91523;
+    --cor-amarelo: #F4BC1D;
+    --cor-preto: #100000;
+    --cor-rosa: #a8574e;
+}
+
 /* body{
     background-color: gray;
 } */
 
 header > nav > div#menu-telefone{
     display: none;
+}
+
+/* header > nav > div#imagem-cabecalho{
+    background-color: var(--cor-rosa);
+    background-image: none;
+    box-sizing: border-box;
+}
+
+header > nav > div#imagem-cabecalho > img{
+    opacity: 1;
+}
+
+header > nav > div#imagem-cabecalho > span{
+    background-color: transparent;
+    color: white;
+    font-size: 1em;
+    opacity: 1;
+    position: static;
+    padding-top: 10px;
+} */
+
+header > nav > div#imagem-cabecalho > div#conteudo-imagem-cabecalho > span{
+    font-size: 1.65em;
+}
+
+footer > div#rodape-links{
+    justify-content: space-around;
 }
