@@ -55,6 +55,7 @@ header > nav > div#menu-telefone > div#links-cabecalho > div#menus-telefone{
     display: flex;
     flex-flow: column nowrap;
     row-gap: 0.3em;
+    z-index: 3;
 }
 
 header > nav > div#menu-telefone > div#links-cabecalho > div#menus-telefone > span{
