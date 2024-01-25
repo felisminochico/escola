@@ -44,6 +44,10 @@ header > nav > div#imagem-cabecalho > div#conteudo-cabecalho-extra{
     width: 98%;
 }
 
+main{
+    max-width: 700px;
+}
+
 footer > div#rodape-links{
     justify-content: space-around;
 }
