@@ -32,6 +32,10 @@ header, nav{
 
 header > nav > div#imagem-cabecalho{
     background-color: var(--cor-rosa);
+    background-image: url(../imagens/download.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 42px 12px 30px 12px;
     transition: filter .91s;
 }
@@ -49,7 +53,7 @@ header > nav > div#imagem-cabecalho > div#conteudo-imagem-cabecalho > img{
 
 header > nav > div#imagem-cabecalho > div#conteudo-imagem-cabecalho > span{
     color: white;
-    font-weight: bold;
+    font-style: italic;
     line-height: 1.3em;
     padding: 10px 14px;
     text-align: center;
@@ -84,9 +88,13 @@ main{
 
 main > article > h1{
     color: var(--cor-vermelho-2);
-    font-size: 2em;
+    font-size: 1.5em;
+    padding: 14px 0px 0px 0px;
+}
+
+main > article > h2{
+    font-size: 1.1em;
     padding: 14px 0px;
-    text-align: center;
 }
 
 main > article > p{

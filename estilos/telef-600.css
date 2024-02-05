@@ -12,6 +12,15 @@ header > nav > div#menu-grande{
     display: none;
 }
 
+header > nav > div#imagem-cabecalho{
+    padding: 0px;
+}
+
+header > nav > div#imagem-cabecalho > div#conteudo-imagem-cabecalho{
+    background-color: rgba(0, 0, 0, 0.363);
+    padding: 42px 12px 30px 12px;
+}
+
 header > nav > div#imagem-cabecalho > div#conteudo-imagem-cabecalho > img{
     border-radius: 10%;
     width: 100px;
